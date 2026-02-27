@@ -163,7 +163,7 @@ This compares every individual FAD value and all Table 2 scores against the refe
 ## Citation
 
 ```bibtex
-@article{jeong2025fad,
+@article{jeong2026fad,
   title={An Empirical Analysis of Task-Induced Encoder Bias in {Fr\'{e}chet} Audio Distance},
   author={Jeong, Wonwoo},
   journal={arXiv preprint arXiv:2602.XXXXX},
