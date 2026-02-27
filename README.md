@@ -166,8 +166,8 @@ This compares every individual FAD value and all Table 2 scores against the refe
 @article{jeong2025fad,
   title={An Empirical Analysis of Task-Induced Encoder Bias in {Fr\'{e}chet} Audio Distance},
   author={Jeong, Wonwoo},
-  journal={arXiv preprint arXiv:25XX.XXXXX},
-  year={2025}
+  journal={arXiv preprint arXiv:2602.XXXXX},
+  year={2026}
 }
 ```
 
