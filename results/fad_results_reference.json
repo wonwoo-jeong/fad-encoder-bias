@@ -1,0 +1,4226 @@
+[
+  {
+    "encoder": "whisper",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+1st",
+    "dataset": "librispeech",
+    "fad": 0.108764
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+2st",
+    "dataset": "librispeech",
+    "fad": 0.126581
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+4st",
+    "dataset": "librispeech",
+    "fad": 0.217301
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+8st",
+    "dataset": "librispeech",
+    "fad": 0.76002
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_0.8x",
+    "dataset": "librispeech",
+    "fad": 2.484189130136935
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_0.9x",
+    "dataset": "librispeech",
+    "fad": 1.1884168918596167
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_1.1x",
+    "dataset": "librispeech",
+    "fad": 1.166868969640357
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_1.2x",
+    "dataset": "librispeech",
+    "fad": 1.8104286023748362
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.25s",
+    "dataset": "librispeech",
+    "fad": 0.4665275336802822
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.25s",
+    "dataset": "esc50",
+    "fad": 0.11949432648619147
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.5s",
+    "dataset": "librispeech",
+    "fad": 0.5147548337034648
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.5s",
+    "dataset": "esc50",
+    "fad": 0.13202374852328208
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=1.0s",
+    "dataset": "librispeech",
+    "fad": 0.6317485183834917
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=1.0s",
+    "dataset": "esc50",
+    "fad": 0.17193319594369458
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=2.0s",
+    "dataset": "librispeech",
+    "fad": 1.019580484231192
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=2.0s",
+    "dataset": "esc50",
+    "fad": 0.46211616592351645
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q3",
+    "task": "time_reverse",
+    "label": "TimeReversal",
+    "dataset": "librispeech",
+    "fad": 6.559575949891498
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_1000ms",
+    "dataset": "librispeech",
+    "fad": 1.6000785700671187
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_500ms",
+    "dataset": "librispeech",
+    "fad": 3.500189726827998
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_250ms",
+    "dataset": "librispeech",
+    "fad": 6.18055617016309
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=20dB",
+    "dataset": "librispeech",
+    "fad": 0.20962958137794935
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=20dB",
+    "dataset": "esc50",
+    "fad": 0.5480907025391085
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=10dB",
+    "dataset": "librispeech",
+    "fad": 0.5907170630773628
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=10dB",
+    "dataset": "esc50",
+    "fad": 0.6802473656550497
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=0dB",
+    "dataset": "librispeech",
+    "fad": 2.3576064100812286
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=0dB",
+    "dataset": "esc50",
+    "fad": 0.9456704451443749
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=-5dB",
+    "dataset": "librispeech",
+    "fad": 4.214862428238041
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=-5dB",
+    "dataset": "esc50",
+    "fad": 1.1523778063456374
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_8000Hz",
+    "dataset": "librispeech",
+    "fad": 0.25759068826275316
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_8000Hz",
+    "dataset": "esc50",
+    "fad": 0.002405035394337195
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_4000Hz",
+    "dataset": "librispeech",
+    "fad": 0.20395719283191865
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_4000Hz",
+    "dataset": "esc50",
+    "fad": 0.03896475923118026
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_2000Hz",
+    "dataset": "librispeech",
+    "fad": 0.23568690512103566
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_2000Hz",
+    "dataset": "esc50",
+    "fad": 0.11090840715055447
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_1000Hz",
+    "dataset": "librispeech",
+    "fad": 0.33096515782898217
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_1000Hz",
+    "dataset": "esc50",
+    "fad": 0.2033771827712957
+  },
+  {
+    "encoder": "clap",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+1st",
+    "dataset": "librispeech",
+    "fad": 0.1046698959968729
+  },
+  {
+    "encoder": "clap",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+2st",
+    "dataset": "librispeech",
+    "fad": 0.1307484347736831
+  },
+  {
+    "encoder": "clap",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+4st",
+    "dataset": "librispeech",
+    "fad": 0.2397712853309452
+  },
+  {
+    "encoder": "clap",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+8st",
+    "dataset": "librispeech",
+    "fad": 0.4389407628094159
+  },
+  {
+    "encoder": "clap",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_0.8x",
+    "dataset": "librispeech",
+    "fad": 0.805647303406303
+  },
+  {
+    "encoder": "clap",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_0.9x",
+    "dataset": "librispeech",
+    "fad": 0.7869139799133937
+  },
+  {
+    "encoder": "clap",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_1.1x",
+    "dataset": "librispeech",
+    "fad": 0.7505905960866086
+  },
+  {
+    "encoder": "clap",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_1.2x",
+    "dataset": "librispeech",
+    "fad": 0.7734205505001928
+  },
+  {
+    "encoder": "clap",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.25s",
+    "dataset": "librispeech",
+    "fad": 0.37205466625973915
+  },
+  {
+    "encoder": "clap",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.25s",
+    "dataset": "esc50",
+    "fad": 0.07182576172835599
+  },
+  {
+    "encoder": "clap",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.5s",
+    "dataset": "librispeech",
+    "fad": 0.4048070227149698
+  },
+  {
+    "encoder": "clap",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.5s",
+    "dataset": "esc50",
+    "fad": 0.08180068176536996
+  },
+  {
+    "encoder": "clap",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=1.0s",
+    "dataset": "librispeech",
+    "fad": 0.48717251416589447
+  },
+  {
+    "encoder": "clap",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=1.0s",
+    "dataset": "esc50",
+    "fad": 0.10925944687755443
+  },
+  {
+    "encoder": "clap",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=2.0s",
+    "dataset": "librispeech",
+    "fad": 0.7408298559991505
+  },
+  {
+    "encoder": "clap",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=2.0s",
+    "dataset": "esc50",
+    "fad": 0.22422071394129175
+  },
+  {
+    "encoder": "clap",
+    "question": "Q3",
+    "task": "time_reverse",
+    "label": "TimeReversal",
+    "dataset": "librispeech",
+    "fad": 0.22086347669338935
+  },
+  {
+    "encoder": "clap",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_1000ms",
+    "dataset": "librispeech",
+    "fad": 0.008603833850415667
+  },
+  {
+    "encoder": "clap",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_500ms",
+    "dataset": "librispeech",
+    "fad": 0.031379735193078594
+  },
+  {
+    "encoder": "clap",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_250ms",
+    "dataset": "librispeech",
+    "fad": 0.09926356507531595
+  },
+  {
+    "encoder": "clap",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=20dB",
+    "dataset": "librispeech",
+    "fad": 0.2794971377341641
+  },
+  {
+    "encoder": "clap",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=20dB",
+    "dataset": "esc50",
+    "fad": 0.15201535648548076
+  },
+  {
+    "encoder": "clap",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=10dB",
+    "dataset": "librispeech",
+    "fad": 0.5413392880290414
+  },
+  {
+    "encoder": "clap",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=10dB",
+    "dataset": "esc50",
+    "fad": 0.295563531797594
+  },
+  {
+    "encoder": "clap",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=0dB",
+    "dataset": "librispeech",
+    "fad": 0.8374565396192493
+  },
+  {
+    "encoder": "clap",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=0dB",
+    "dataset": "esc50",
+    "fad": 0.5639625281334246
+  },
+  {
+    "encoder": "clap",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=-5dB",
+    "dataset": "librispeech",
+    "fad": 1.0116786005981382
+  },
+  {
+    "encoder": "clap",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=-5dB",
+    "dataset": "esc50",
+    "fad": 0.753259496104969
+  },
+  {
+    "encoder": "clap",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_8000Hz",
+    "dataset": "librispeech",
+    "fad": 0.4648899067348212
+  },
+  {
+    "encoder": "clap",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_8000Hz",
+    "dataset": "esc50",
+    "fad": 0.014432460905161395
+  },
+  {
+    "encoder": "clap",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_4000Hz",
+    "dataset": "librispeech",
+    "fad": 0.023896886394795615
+  },
+  {
+    "encoder": "clap",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_4000Hz",
+    "dataset": "esc50",
+    "fad": 0.06137752602396979
+  },
+  {
+    "encoder": "clap",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_2000Hz",
+    "dataset": "librispeech",
+    "fad": 0.05808436946679809
+  },
+  {
+    "encoder": "clap",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_2000Hz",
+    "dataset": "esc50",
+    "fad": 0.12623389514641625
+  },
+  {
+    "encoder": "clap",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_1000Hz",
+    "dataset": "librispeech",
+    "fad": 0.11448946189285059
+  },
+  {
+    "encoder": "clap",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_1000Hz",
+    "dataset": "esc50",
+    "fad": 0.20077282713552325
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+1st",
+    "dataset": "librispeech",
+    "fad": 1.5713213622493516
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+2st",
+    "dataset": "librispeech",
+    "fad": 1.9089197646783311
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+4st",
+    "dataset": "librispeech",
+    "fad": 3.5809604738568046
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+8st",
+    "dataset": "librispeech",
+    "fad": 7.39976478895634
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_0.8x",
+    "dataset": "librispeech",
+    "fad": 5.030066481709181
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_0.9x",
+    "dataset": "librispeech",
+    "fad": 4.912953619409744
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_1.1x",
+    "dataset": "librispeech",
+    "fad": 4.56870430079981
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_1.2x",
+    "dataset": "librispeech",
+    "fad": 4.757226149527496
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.25s",
+    "dataset": "librispeech",
+    "fad": 4.279295142949867
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.25s",
+    "dataset": "esc50",
+    "fad": 0.4085881572360082
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.5s",
+    "dataset": "librispeech",
+    "fad": 4.529233525510293
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.5s",
+    "dataset": "esc50",
+    "fad": 0.47900734062098005
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=1.0s",
+    "dataset": "librispeech",
+    "fad": 5.19408783062851
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=1.0s",
+    "dataset": "esc50",
+    "fad": 0.6742116335483033
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=2.0s",
+    "dataset": "librispeech",
+    "fad": 7.0389009061277115
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=2.0s",
+    "dataset": "esc50",
+    "fad": 1.3886810161227416
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q3",
+    "task": "time_reverse",
+    "label": "TimeReversal",
+    "dataset": "librispeech",
+    "fad": 1.108171413779462
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_1000ms",
+    "dataset": "librispeech",
+    "fad": 0.01976954123854857
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_500ms",
+    "dataset": "librispeech",
+    "fad": 0.09843800788994622
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_250ms",
+    "dataset": "librispeech",
+    "fad": 0.3311303979147395
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=20dB",
+    "dataset": "librispeech",
+    "fad": 3.999601495325017
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=20dB",
+    "dataset": "esc50",
+    "fad": 0.6274484863307858
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=10dB",
+    "dataset": "librispeech",
+    "fad": 6.606079602820446
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=10dB",
+    "dataset": "esc50",
+    "fad": 1.4580840973144622
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=0dB",
+    "dataset": "librispeech",
+    "fad": 9.704174076447757
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=0dB",
+    "dataset": "esc50",
+    "fad": 3.4505582708737053
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=-5dB",
+    "dataset": "librispeech",
+    "fad": 10.991619753731346
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=-5dB",
+    "dataset": "esc50",
+    "fad": 4.655155889630736
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_8000Hz",
+    "dataset": "librispeech",
+    "fad": 0.07487974827858665
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_8000Hz",
+    "dataset": "esc50",
+    "fad": 0.0072691123930820395
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_4000Hz",
+    "dataset": "librispeech",
+    "fad": 0.5926395384368284
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_4000Hz",
+    "dataset": "esc50",
+    "fad": 0.204617234278999
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_2000Hz",
+    "dataset": "librispeech",
+    "fad": 0.9044561729637146
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_2000Hz",
+    "dataset": "esc50",
+    "fad": 0.8078968728948814
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_1000Hz",
+    "dataset": "librispeech",
+    "fad": 1.6255655835858227
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_1000Hz",
+    "dataset": "esc50",
+    "fad": 1.7305089497487336
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+1st",
+    "dataset": "librispeech",
+    "fad": 0.7161575662365183
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+2st",
+    "dataset": "librispeech",
+    "fad": 1.516212378559642
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+4st",
+    "dataset": "librispeech",
+    "fad": 3.1146033428939206
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+8st",
+    "dataset": "librispeech",
+    "fad": 5.078279825137788
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_0.8x",
+    "dataset": "librispeech",
+    "fad": 5.399042482423577
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_0.9x",
+    "dataset": "librispeech",
+    "fad": 6.1176410893190525
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_1.1x",
+    "dataset": "librispeech",
+    "fad": 7.399259992936776
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_1.2x",
+    "dataset": "librispeech",
+    "fad": 8.669629921957291
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.25s",
+    "dataset": "librispeech",
+    "fad": 9.460186087090213
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.25s",
+    "dataset": "esc50",
+    "fad": 1.3720130873947833
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.5s",
+    "dataset": "librispeech",
+    "fad": 10.816125272608975
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.5s",
+    "dataset": "esc50",
+    "fad": 1.6490640828234264
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=1.0s",
+    "dataset": "librispeech",
+    "fad": 14.628108954382055
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=1.0s",
+    "dataset": "esc50",
+    "fad": 2.5543128153032812
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=2.0s",
+    "dataset": "librispeech",
+    "fad": 31.9391580271374
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=2.0s",
+    "dataset": "esc50",
+    "fad": 10.510618468120624
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q3",
+    "task": "time_reverse",
+    "label": "TimeReversal",
+    "dataset": "librispeech",
+    "fad": 0.05094500843204365
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_1000ms",
+    "dataset": "librispeech",
+    "fad": 0.016516459971831945
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_500ms",
+    "dataset": "librispeech",
+    "fad": 0.08785118912931904
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_250ms",
+    "dataset": "librispeech",
+    "fad": 0.23843450393377655
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=20dB",
+    "dataset": "librispeech",
+    "fad": 27.10410227846855
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=20dB",
+    "dataset": "esc50",
+    "fad": 13.445887808025223
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=10dB",
+    "dataset": "librispeech",
+    "fad": 82.18351003723767
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=10dB",
+    "dataset": "esc50",
+    "fad": 68.43433353101501
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=0dB",
+    "dataset": "librispeech",
+    "fad": 135.80879479603507
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=0dB",
+    "dataset": "esc50",
+    "fad": 131.16656620191543
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=-5dB",
+    "dataset": "librispeech",
+    "fad": 144.9902293713124
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=-5dB",
+    "dataset": "esc50",
+    "fad": 148.75339117663265
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_8000Hz",
+    "dataset": "librispeech",
+    "fad": 60.355991688322156
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_8000Hz",
+    "dataset": "esc50",
+    "fad": 1.0233371152276158
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_4000Hz",
+    "dataset": "librispeech",
+    "fad": 3.871933936334009
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_4000Hz",
+    "dataset": "esc50",
+    "fad": 4.996661020552345
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_2000Hz",
+    "dataset": "librispeech",
+    "fad": 9.63582079065348
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_2000Hz",
+    "dataset": "esc50",
+    "fad": 12.941194351131124
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_1000Hz",
+    "dataset": "librispeech",
+    "fad": 18.196900431416097
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_1000Hz",
+    "dataset": "esc50",
+    "fad": 24.304877742512794
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+1st",
+    "dataset": "librispeech",
+    "fad": 1.2660823668106405
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+2st",
+    "dataset": "librispeech",
+    "fad": 1.4421051906616764
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+4st",
+    "dataset": "librispeech",
+    "fad": 2.482710620542668
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+8st",
+    "dataset": "librispeech",
+    "fad": 6.6370366067528295
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_0.8x",
+    "dataset": "librispeech",
+    "fad": 6.415386592974426
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_0.9x",
+    "dataset": "librispeech",
+    "fad": 6.151962062128044
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_1.1x",
+    "dataset": "librispeech",
+    "fad": 5.7318449868706125
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_1.2x",
+    "dataset": "librispeech",
+    "fad": 5.96313236755085
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.25s",
+    "dataset": "librispeech",
+    "fad": 7.913894083463337
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.25s",
+    "dataset": "esc50",
+    "fad": 1.205948756621987
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.5s",
+    "dataset": "librispeech",
+    "fad": 8.973510045447803
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.5s",
+    "dataset": "esc50",
+    "fad": 1.365431381664482
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=1.0s",
+    "dataset": "librispeech",
+    "fad": 12.0570091058769
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=1.0s",
+    "dataset": "esc50",
+    "fad": 1.8230602032353664
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=2.0s",
+    "dataset": "librispeech",
+    "fad": 26.883722718549905
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=2.0s",
+    "dataset": "esc50",
+    "fad": 4.7232812287475126
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q3",
+    "task": "time_reverse",
+    "label": "TimeReversal",
+    "dataset": "librispeech",
+    "fad": 2.0554738736171023
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_1000ms",
+    "dataset": "librispeech",
+    "fad": 0.08520355603997516
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_500ms",
+    "dataset": "librispeech",
+    "fad": 0.2935688548397811
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_250ms",
+    "dataset": "librispeech",
+    "fad": 0.932885461092232
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=20dB",
+    "dataset": "librispeech",
+    "fad": 21.394801584037257
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=20dB",
+    "dataset": "esc50",
+    "fad": 10.506190026673886
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=10dB",
+    "dataset": "librispeech",
+    "fad": 48.174061735025894
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=10dB",
+    "dataset": "esc50",
+    "fad": 18.57618460483002
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=0dB",
+    "dataset": "librispeech",
+    "fad": 74.24061405304049
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=0dB",
+    "dataset": "esc50",
+    "fad": 24.14699319752818
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=-5dB",
+    "dataset": "librispeech",
+    "fad": 67.66775286030708
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=-5dB",
+    "dataset": "esc50",
+    "fad": 28.05950629104708
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_8000Hz",
+    "dataset": "librispeech",
+    "fad": 11.659870301487068
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_8000Hz",
+    "dataset": "esc50",
+    "fad": 0.14860551999484578
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_4000Hz",
+    "dataset": "librispeech",
+    "fad": 0.8779613285479784
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_4000Hz",
+    "dataset": "esc50",
+    "fad": 1.1744574104826708
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_2000Hz",
+    "dataset": "librispeech",
+    "fad": 2.210413231827613
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_2000Hz",
+    "dataset": "esc50",
+    "fad": 4.255335802864858
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_1000Hz",
+    "dataset": "librispeech",
+    "fad": 4.545894546509475
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_1000Hz",
+    "dataset": "esc50",
+    "fad": 8.542589068790038
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-1st",
+    "dataset": "librispeech",
+    "fad": 0.11364737679781356
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-2st",
+    "dataset": "librispeech",
+    "fad": 0.14647011838035204
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-4st",
+    "dataset": "librispeech",
+    "fad": 0.2479502574617047
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-8st",
+    "dataset": "librispeech",
+    "fad": 1.0792784685352064
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.1x",
+    "dataset": "librispeech",
+    "fad": 0.11161739453824684
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.2x",
+    "dataset": "librispeech",
+    "fad": 0.2204391549845099
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.3x",
+    "dataset": "librispeech",
+    "fad": 0.37125704366416895
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.4x",
+    "dataset": "librispeech",
+    "fad": 0.5237676458019277
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.1s",
+    "dataset": "librispeech",
+    "fad": 0.4399016386113197
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.1s",
+    "dataset": "esc50",
+    "fad": 0.1126529015062577
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.2s",
+    "dataset": "librispeech",
+    "fad": 0.45751352464745576
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.2s",
+    "dataset": "esc50",
+    "fad": 0.1172870870659932
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.4s",
+    "dataset": "librispeech",
+    "fad": 0.49467098209164384
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.4s",
+    "dataset": "esc50",
+    "fad": 0.12675906485191973
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.6s",
+    "dataset": "librispeech",
+    "fad": 0.53565560642223
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.6s",
+    "dataset": "esc50",
+    "fad": 0.13861259092221956
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.8s",
+    "dataset": "librispeech",
+    "fad": 0.5813459737828224
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.8s",
+    "dataset": "esc50",
+    "fad": 0.15387799028213645
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_1000ms",
+    "dataset": "librispeech",
+    "fad": 1.5481442063330801
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_500ms",
+    "dataset": "librispeech",
+    "fad": 3.493113772377652
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_250ms",
+    "dataset": "librispeech",
+    "fad": 6.053406687494456
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_100ms",
+    "dataset": "librispeech",
+    "fad": 8.172041870475937
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=60dB",
+    "dataset": "librispeech",
+    "fad": 0.00034943316585439956
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=60dB",
+    "dataset": "esc50",
+    "fad": 0.0018306564325462843
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=40dB",
+    "dataset": "librispeech",
+    "fad": 0.037656534113594216
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=40dB",
+    "dataset": "esc50",
+    "fad": 0.30588799952570056
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_6000Hz",
+    "dataset": "librispeech",
+    "fad": 0.19968111844032777
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_6000Hz",
+    "dataset": "esc50",
+    "fad": 0.009905506376910516
+  },
+  {
+    "encoder": "clap",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-1st",
+    "dataset": "librispeech",
+    "fad": 0.14649226884383734
+  },
+  {
+    "encoder": "clap",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-2st",
+    "dataset": "librispeech",
+    "fad": 0.2288395734299445
+  },
+  {
+    "encoder": "clap",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-4st",
+    "dataset": "librispeech",
+    "fad": 0.3596165143398825
+  },
+  {
+    "encoder": "clap",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-8st",
+    "dataset": "librispeech",
+    "fad": 0.5956163477004168
+  },
+  {
+    "encoder": "clap",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.1x",
+    "dataset": "librispeech",
+    "fad": 0.03451650628557415
+  },
+  {
+    "encoder": "clap",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.2x",
+    "dataset": "librispeech",
+    "fad": 0.06470857260789922
+  },
+  {
+    "encoder": "clap",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.3x",
+    "dataset": "librispeech",
+    "fad": 0.10218058233806528
+  },
+  {
+    "encoder": "clap",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.4x",
+    "dataset": "librispeech",
+    "fad": 0.14847918468094173
+  },
+  {
+    "encoder": "clap",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.1s",
+    "dataset": "librispeech",
+    "fad": 0.35463716302223225
+  },
+  {
+    "encoder": "clap",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.1s",
+    "dataset": "esc50",
+    "fad": 0.06674592509289337
+  },
+  {
+    "encoder": "clap",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.2s",
+    "dataset": "librispeech",
+    "fad": 0.3667146187881114
+  },
+  {
+    "encoder": "clap",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.2s",
+    "dataset": "esc50",
+    "fad": 0.07008791777499776
+  },
+  {
+    "encoder": "clap",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.4s",
+    "dataset": "librispeech",
+    "fad": 0.3909272046867416
+  },
+  {
+    "encoder": "clap",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.4s",
+    "dataset": "esc50",
+    "fad": 0.07746570304459902
+  },
+  {
+    "encoder": "clap",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.6s",
+    "dataset": "librispeech",
+    "fad": 0.4185966031381696
+  },
+  {
+    "encoder": "clap",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.6s",
+    "dataset": "esc50",
+    "fad": 0.0864186081416615
+  },
+  {
+    "encoder": "clap",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.8s",
+    "dataset": "librispeech",
+    "fad": 0.4518405386522785
+  },
+  {
+    "encoder": "clap",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.8s",
+    "dataset": "esc50",
+    "fad": 0.09668760959109168
+  },
+  {
+    "encoder": "clap",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_1000ms",
+    "dataset": "librispeech",
+    "fad": 0.008104787539642546
+  },
+  {
+    "encoder": "clap",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_500ms",
+    "dataset": "librispeech",
+    "fad": 0.027327168019305362
+  },
+  {
+    "encoder": "clap",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_250ms",
+    "dataset": "librispeech",
+    "fad": 0.08879889150944237
+  },
+  {
+    "encoder": "clap",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_100ms",
+    "dataset": "librispeech",
+    "fad": 0.37343212651214175
+  },
+  {
+    "encoder": "clap",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=60dB",
+    "dataset": "librispeech",
+    "fad": 0.0036045105108815636
+  },
+  {
+    "encoder": "clap",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=60dB",
+    "dataset": "esc50",
+    "fad": 0.027444147201840234
+  },
+  {
+    "encoder": "clap",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=40dB",
+    "dataset": "librispeech",
+    "fad": 0.030869890548174267
+  },
+  {
+    "encoder": "clap",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=40dB",
+    "dataset": "esc50",
+    "fad": 0.06913046931715638
+  },
+  {
+    "encoder": "clap",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_6000Hz",
+    "dataset": "librispeech",
+    "fad": 0.014207675585294902
+  },
+  {
+    "encoder": "clap",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_6000Hz",
+    "dataset": "esc50",
+    "fad": 0.03027965606865913
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-1st",
+    "dataset": "librispeech",
+    "fad": 2.111475689050705
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-2st",
+    "dataset": "librispeech",
+    "fad": 2.800160591052646
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-4st",
+    "dataset": "librispeech",
+    "fad": 3.65605991822669
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-8st",
+    "dataset": "librispeech",
+    "fad": 4.707960779998006
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.1x",
+    "dataset": "librispeech",
+    "fad": 0.3540302613630694
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.2x",
+    "dataset": "librispeech",
+    "fad": 1.003580172015479
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.3x",
+    "dataset": "librispeech",
+    "fad": 1.7938461656206437
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.4x",
+    "dataset": "librispeech",
+    "fad": 2.8234519409266703
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.1s",
+    "dataset": "librispeech",
+    "fad": 4.146241232835458
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.1s",
+    "dataset": "esc50",
+    "fad": 0.37473131035966484
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.2s",
+    "dataset": "librispeech",
+    "fad": 4.233842342581012
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.2s",
+    "dataset": "esc50",
+    "fad": 0.39668057924423417
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.4s",
+    "dataset": "librispeech",
+    "fad": 4.424279960552539
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.4s",
+    "dataset": "esc50",
+    "fad": 0.4487231092839532
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.6s",
+    "dataset": "librispeech",
+    "fad": 4.641840426416126
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.6s",
+    "dataset": "esc50",
+    "fad": 0.5123637156496124
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.8s",
+    "dataset": "librispeech",
+    "fad": 4.89688101490345
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.8s",
+    "dataset": "esc50",
+    "fad": 0.5876043063227282
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_1000ms",
+    "dataset": "librispeech",
+    "fad": 0.019492398132467104
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_500ms",
+    "dataset": "librispeech",
+    "fad": 0.08480679818272459
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_250ms",
+    "dataset": "librispeech",
+    "fad": 0.24429875597611553
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_100ms",
+    "dataset": "librispeech",
+    "fad": 1.7232554164827967
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=60dB",
+    "dataset": "librispeech",
+    "fad": 0.00594968165933306
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=60dB",
+    "dataset": "esc50",
+    "fad": 0.0011076686218189317
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=40dB",
+    "dataset": "librispeech",
+    "fad": 0.4721993794362668
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=40dB",
+    "dataset": "esc50",
+    "fad": 0.2041146390726237
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_6000Hz",
+    "dataset": "librispeech",
+    "fad": 0.36045855551501493
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_6000Hz",
+    "dataset": "esc50",
+    "fad": 0.04498288282495303
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-1st",
+    "dataset": "librispeech",
+    "fad": 1.00630314621172
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-2st",
+    "dataset": "librispeech",
+    "fad": 2.049298404797472
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-4st",
+    "dataset": "librispeech",
+    "fad": 4.239393363021001
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-8st",
+    "dataset": "librispeech",
+    "fad": 8.274885107039095
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.1x",
+    "dataset": "librispeech",
+    "fad": 1.0760668890303602
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.2x",
+    "dataset": "librispeech",
+    "fad": 2.4651162637468955
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.3x",
+    "dataset": "librispeech",
+    "fad": 3.379237400916498
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.4x",
+    "dataset": "librispeech",
+    "fad": 4.112007172524991
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.1s",
+    "dataset": "librispeech",
+    "fad": 8.771376124070768
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.1s",
+    "dataset": "esc50",
+    "fad": 1.2394992142312042
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.2s",
+    "dataset": "librispeech",
+    "fad": 9.221588761695067
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.2s",
+    "dataset": "esc50",
+    "fad": 1.3252996356014806
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.4s",
+    "dataset": "librispeech",
+    "fad": 10.242071203828989
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.4s",
+    "dataset": "esc50",
+    "fad": 1.526832961521035
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.6s",
+    "dataset": "librispeech",
+    "fad": 11.447614985444918
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.6s",
+    "dataset": "esc50",
+    "fad": 1.78505846333805
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.8s",
+    "dataset": "librispeech",
+    "fad": 12.889402161801502
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.8s",
+    "dataset": "esc50",
+    "fad": 2.1187177998811366
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_1000ms",
+    "dataset": "librispeech",
+    "fad": 0.02164398336092229
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_500ms",
+    "dataset": "librispeech",
+    "fad": 0.09698791764850548
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_250ms",
+    "dataset": "librispeech",
+    "fad": 0.2478086264528119
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_100ms",
+    "dataset": "librispeech",
+    "fad": 0.8479255849441925
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=60dB",
+    "dataset": "librispeech",
+    "fad": 9.972289454713082e-05
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=60dB",
+    "dataset": "esc50",
+    "fad": 2.0702018838969494e-05
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=40dB",
+    "dataset": "librispeech",
+    "fad": 0.5169775797841953
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=40dB",
+    "dataset": "esc50",
+    "fad": 0.12219345394500399
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_6000Hz",
+    "dataset": "librispeech",
+    "fad": 1.9051104181366785
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_6000Hz",
+    "dataset": "esc50",
+    "fad": 2.283714592305362
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-1st",
+    "dataset": "librispeech",
+    "fad": 1.4734775140507375
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-2st",
+    "dataset": "librispeech",
+    "fad": 1.9077660953242879
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-4st",
+    "dataset": "librispeech",
+    "fad": 3.6843005149559063
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-8st",
+    "dataset": "librispeech",
+    "fad": 8.909842608192088
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.1x",
+    "dataset": "librispeech",
+    "fad": 0.40745936899240964
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.2x",
+    "dataset": "librispeech",
+    "fad": 1.0324989478252786
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.3x",
+    "dataset": "librispeech",
+    "fad": 1.9793529451257503
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.4x",
+    "dataset": "librispeech",
+    "fad": 3.1132061231371884
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.1s",
+    "dataset": "librispeech",
+    "fad": 7.388750713529131
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.1s",
+    "dataset": "esc50",
+    "fad": 1.1323844790818858
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.2s",
+    "dataset": "librispeech",
+    "fad": 7.72991500147897
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.2s",
+    "dataset": "esc50",
+    "fad": 1.1778193227427325
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.4s",
+    "dataset": "librispeech",
+    "fad": 8.522598490097712
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.4s",
+    "dataset": "esc50",
+    "fad": 1.2992725173793989
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.6s",
+    "dataset": "librispeech",
+    "fad": 9.469449874943912
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.6s",
+    "dataset": "esc50",
+    "fad": 1.4357794246505258
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.8s",
+    "dataset": "librispeech",
+    "fad": 10.62974431919467
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.8s",
+    "dataset": "esc50",
+    "fad": 1.60637389458137
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_1000ms",
+    "dataset": "librispeech",
+    "fad": 0.0845110766244743
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_500ms",
+    "dataset": "librispeech",
+    "fad": 0.28435816938143543
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_250ms",
+    "dataset": "librispeech",
+    "fad": 0.8871519556983707
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_100ms",
+    "dataset": "librispeech",
+    "fad": 2.989071193764853
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=60dB",
+    "dataset": "librispeech",
+    "fad": 0.05481530432993297
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=60dB",
+    "dataset": "esc50",
+    "fad": 1.179928687659805
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=40dB",
+    "dataset": "librispeech",
+    "fad": 2.330570961189683
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=40dB",
+    "dataset": "esc50",
+    "fad": 2.491253547297148
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_6000Hz",
+    "dataset": "librispeech",
+    "fad": 0.25494240539031937
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_6000Hz",
+    "dataset": "esc50",
+    "fad": 0.35474690324951086
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+1st",
+    "dataset": "esc50",
+    "fad": 0.08234842957437169
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+2st",
+    "dataset": "esc50",
+    "fad": 0.09991773907273634
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+4st",
+    "dataset": "esc50",
+    "fad": 0.10556252412800204
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+8st",
+    "dataset": "esc50",
+    "fad": 0.15108404409625115
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_0.8x",
+    "dataset": "esc50",
+    "fad": 1.1711517744093725
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_0.9x",
+    "dataset": "esc50",
+    "fad": 0.49661072542371976
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_1.1x",
+    "dataset": "esc50",
+    "fad": 0.2580371474443257
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_1.2x",
+    "dataset": "esc50",
+    "fad": 0.6558692549773808
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q3",
+    "task": "time_reverse",
+    "label": "TimeReversal",
+    "dataset": "esc50",
+    "fad": 0.6269651490095627
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_1000ms",
+    "dataset": "esc50",
+    "fad": 0.3505727239562814
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_500ms",
+    "dataset": "esc50",
+    "fad": 0.4708903768107475
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_250ms",
+    "dataset": "esc50",
+    "fad": 0.6285514903831121
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-1st",
+    "dataset": "esc50",
+    "fad": 0.0665407251574586
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-2st",
+    "dataset": "esc50",
+    "fad": 0.06788887674824688
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-4st",
+    "dataset": "esc50",
+    "fad": 0.06282324439547372
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-8st",
+    "dataset": "esc50",
+    "fad": 0.08353833163263993
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.1x",
+    "dataset": "esc50",
+    "fad": 0.13702825673456617
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.2x",
+    "dataset": "esc50",
+    "fad": 0.15186334977934113
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.3x",
+    "dataset": "esc50",
+    "fad": 0.16830828605253972
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.4x",
+    "dataset": "esc50",
+    "fad": 0.18664657397413909
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_1000ms",
+    "dataset": "esc50",
+    "fad": 0.3505727239562814
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_500ms",
+    "dataset": "esc50",
+    "fad": 0.4708903768107475
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_250ms",
+    "dataset": "esc50",
+    "fad": 0.6285514903831121
+  },
+  {
+    "encoder": "whisper",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_100ms",
+    "dataset": "esc50",
+    "fad": 0.9803036187322791
+  },
+  {
+    "encoder": "clap",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+1st",
+    "dataset": "esc50",
+    "fad": 0.08316643945858201
+  },
+  {
+    "encoder": "clap",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+2st",
+    "dataset": "esc50",
+    "fad": 0.08722271505984293
+  },
+  {
+    "encoder": "clap",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+4st",
+    "dataset": "esc50",
+    "fad": 0.10724361824407708
+  },
+  {
+    "encoder": "clap",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+8st",
+    "dataset": "esc50",
+    "fad": 0.17776988713496966
+  },
+  {
+    "encoder": "clap",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_0.8x",
+    "dataset": "esc50",
+    "fad": 0.3455472440199494
+  },
+  {
+    "encoder": "clap",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_0.9x",
+    "dataset": "esc50",
+    "fad": 0.35547070231390987
+  },
+  {
+    "encoder": "clap",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_1.1x",
+    "dataset": "esc50",
+    "fad": 0.2825425855294681
+  },
+  {
+    "encoder": "clap",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_1.2x",
+    "dataset": "esc50",
+    "fad": 0.3111003408519697
+  },
+  {
+    "encoder": "clap",
+    "question": "Q3",
+    "task": "time_reverse",
+    "label": "TimeReversal",
+    "dataset": "esc50",
+    "fad": 0.13722351550488696
+  },
+  {
+    "encoder": "clap",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_1000ms",
+    "dataset": "esc50",
+    "fad": 0.15497443184973314
+  },
+  {
+    "encoder": "clap",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_500ms",
+    "dataset": "esc50",
+    "fad": 0.198763779029623
+  },
+  {
+    "encoder": "clap",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_250ms",
+    "dataset": "esc50",
+    "fad": 0.25094083746950385
+  },
+  {
+    "encoder": "clap",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-1st",
+    "dataset": "esc50",
+    "fad": 0.07524996864614701
+  },
+  {
+    "encoder": "clap",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-2st",
+    "dataset": "esc50",
+    "fad": 0.0729486894697055
+  },
+  {
+    "encoder": "clap",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-4st",
+    "dataset": "esc50",
+    "fad": 0.08808331765510026
+  },
+  {
+    "encoder": "clap",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-8st",
+    "dataset": "esc50",
+    "fad": 0.12504094084843886
+  },
+  {
+    "encoder": "clap",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.1x",
+    "dataset": "esc50",
+    "fad": 0.04305871583508433
+  },
+  {
+    "encoder": "clap",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.2x",
+    "dataset": "esc50",
+    "fad": 0.04936064371035196
+  },
+  {
+    "encoder": "clap",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.3x",
+    "dataset": "esc50",
+    "fad": 0.06279274024352322
+  },
+  {
+    "encoder": "clap",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.4x",
+    "dataset": "esc50",
+    "fad": 0.07578959141802352
+  },
+  {
+    "encoder": "clap",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_1000ms",
+    "dataset": "esc50",
+    "fad": 0.15497443184973314
+  },
+  {
+    "encoder": "clap",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_500ms",
+    "dataset": "esc50",
+    "fad": 0.198763779029623
+  },
+  {
+    "encoder": "clap",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_250ms",
+    "dataset": "esc50",
+    "fad": 0.25094083746950385
+  },
+  {
+    "encoder": "clap",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_100ms",
+    "dataset": "esc50",
+    "fad": 0.4203321601136012
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+1st",
+    "dataset": "esc50",
+    "fad": 1.3154505797872105
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+2st",
+    "dataset": "esc50",
+    "fad": 1.4410998674471
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+4st",
+    "dataset": "esc50",
+    "fad": 1.6039895219056777
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+8st",
+    "dataset": "esc50",
+    "fad": 2.019817356491465
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_0.8x",
+    "dataset": "esc50",
+    "fad": 1.840660186118718
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_0.9x",
+    "dataset": "esc50",
+    "fad": 1.4739545174142088
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_1.1x",
+    "dataset": "esc50",
+    "fad": 0.9347870918325263
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_1.2x",
+    "dataset": "esc50",
+    "fad": 0.8352177519918531
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q3",
+    "task": "time_reverse",
+    "label": "TimeReversal",
+    "dataset": "esc50",
+    "fad": 0.49748342979344995
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_1000ms",
+    "dataset": "esc50",
+    "fad": 0.035049337326974
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_500ms",
+    "dataset": "esc50",
+    "fad": 0.12967373915646724
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_250ms",
+    "dataset": "esc50",
+    "fad": 0.2594399237276511
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-1st",
+    "dataset": "esc50",
+    "fad": 0.9617224762196057
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-2st",
+    "dataset": "esc50",
+    "fad": 0.7890598063114844
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-4st",
+    "dataset": "esc50",
+    "fad": 0.5850701081386678
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-8st",
+    "dataset": "esc50",
+    "fad": 0.5415478756681679
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.1x",
+    "dataset": "esc50",
+    "fad": 0.4350223698561446
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.2x",
+    "dataset": "esc50",
+    "fad": 0.5517260699741413
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.3x",
+    "dataset": "esc50",
+    "fad": 0.6314581611461573
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.4x",
+    "dataset": "esc50",
+    "fad": 0.6941129005700081
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_1000ms",
+    "dataset": "esc50",
+    "fad": 0.035049337326974
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_500ms",
+    "dataset": "esc50",
+    "fad": 0.12967373915646724
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_250ms",
+    "dataset": "esc50",
+    "fad": 0.2594399237276511
+  },
+  {
+    "encoder": "vggish",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_100ms",
+    "dataset": "esc50",
+    "fad": 0.846739731108293
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+1st",
+    "dataset": "esc50",
+    "fad": 0.30756108980649755
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+2st",
+    "dataset": "esc50",
+    "fad": 0.5477278688758619
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+4st",
+    "dataset": "esc50",
+    "fad": 0.8288567697558948
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+8st",
+    "dataset": "esc50",
+    "fad": 1.795189365921959
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_0.8x",
+    "dataset": "esc50",
+    "fad": 0.0956514075583612
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_0.9x",
+    "dataset": "esc50",
+    "fad": 0.12694978108977198
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_1.1x",
+    "dataset": "esc50",
+    "fad": 0.19419751907678307
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_1.2x",
+    "dataset": "esc50",
+    "fad": 0.2360186626457822
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q3",
+    "task": "time_reverse",
+    "label": "TimeReversal",
+    "dataset": "esc50",
+    "fad": 0.05005214484155575
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_1000ms",
+    "dataset": "esc50",
+    "fad": 0.02807989116492131
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_500ms",
+    "dataset": "esc50",
+    "fad": 0.12861111073078385
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_250ms",
+    "dataset": "esc50",
+    "fad": 0.35753713577743457
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-1st",
+    "dataset": "esc50",
+    "fad": 0.26430302985594933
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-2st",
+    "dataset": "esc50",
+    "fad": 0.46239659327861166
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-4st",
+    "dataset": "esc50",
+    "fad": 0.707327188582901
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-8st",
+    "dataset": "esc50",
+    "fad": 2.8348085476984455
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.1x",
+    "dataset": "esc50",
+    "fad": 0.9039698930133286
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.2x",
+    "dataset": "esc50",
+    "fad": 0.8929260249070823
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.3x",
+    "dataset": "esc50",
+    "fad": 1.0548818081081002
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.4x",
+    "dataset": "esc50",
+    "fad": 1.3008537423481488
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_1000ms",
+    "dataset": "esc50",
+    "fad": 0.02807989116492131
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_500ms",
+    "dataset": "esc50",
+    "fad": 0.12861111073078385
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_250ms",
+    "dataset": "esc50",
+    "fad": 0.35753713577743457
+  },
+  {
+    "encoder": "encodec",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_100ms",
+    "dataset": "esc50",
+    "fad": 0.790287853645246
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+1st",
+    "dataset": "esc50",
+    "fad": 1.2158988834344289
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+2st",
+    "dataset": "esc50",
+    "fad": 1.4446663535685507
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+4st",
+    "dataset": "esc50",
+    "fad": 1.9405658214444448
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+8st",
+    "dataset": "esc50",
+    "fad": 2.414152994777308
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_0.8x",
+    "dataset": "esc50",
+    "fad": 1.1068121693585784
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_0.9x",
+    "dataset": "esc50",
+    "fad": 0.988132909204589
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_1.1x",
+    "dataset": "esc50",
+    "fad": 1.0798405836937621
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_1.2x",
+    "dataset": "esc50",
+    "fad": 1.3387239653304883
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q3",
+    "task": "time_reverse",
+    "label": "TimeReversal",
+    "dataset": "esc50",
+    "fad": 1.0150016279136271
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_1000ms",
+    "dataset": "esc50",
+    "fad": 0.4274178636909265
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_500ms",
+    "dataset": "esc50",
+    "fad": 0.7589544876712668
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_250ms",
+    "dataset": "esc50",
+    "fad": 1.3299987312843993
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-1st",
+    "dataset": "esc50",
+    "fad": 0.9867984058167635
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-2st",
+    "dataset": "esc50",
+    "fad": 1.0898359695771194
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-4st",
+    "dataset": "esc50",
+    "fad": 1.1596018328022706
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-8st",
+    "dataset": "esc50",
+    "fad": 1.367486884043763
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.1x",
+    "dataset": "esc50",
+    "fad": 1.2917159205886706
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.2x",
+    "dataset": "esc50",
+    "fad": 1.178838633854667
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.3x",
+    "dataset": "esc50",
+    "fad": 1.179434206776385
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.4x",
+    "dataset": "esc50",
+    "fad": 1.503427739870476
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_1000ms",
+    "dataset": "esc50",
+    "fad": 0.4274178636909265
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_500ms",
+    "dataset": "esc50",
+    "fad": 0.7589544876712668
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_250ms",
+    "dataset": "esc50",
+    "fad": 1.3299987312843993
+  },
+  {
+    "encoder": "wav2vec",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_100ms",
+    "dataset": "esc50",
+    "fad": 3.0747469712820967
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+1st",
+    "dataset": "librispeech",
+    "fad": 1.5967313119377042
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+1st",
+    "dataset": "esc50",
+    "fad": 1.2326026161304813
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+2st",
+    "dataset": "librispeech",
+    "fad": 1.6243780602341649
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+2st",
+    "dataset": "esc50",
+    "fad": 1.516097078176669
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+4st",
+    "dataset": "librispeech",
+    "fad": 1.9698200952897391
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+4st",
+    "dataset": "esc50",
+    "fad": 2.2287911569640584
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+8st",
+    "dataset": "librispeech",
+    "fad": 4.522249400664354
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_+8st",
+    "dataset": "esc50",
+    "fad": 2.764699702012092
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-1st",
+    "dataset": "librispeech",
+    "fad": 1.9058006365436553
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-1st",
+    "dataset": "esc50",
+    "fad": 1.0087286965593092
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-2st",
+    "dataset": "librispeech",
+    "fad": 2.080646925705368
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-2st",
+    "dataset": "esc50",
+    "fad": 1.062976252249237
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-4st",
+    "dataset": "librispeech",
+    "fad": 2.8270372717543126
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-4st",
+    "dataset": "esc50",
+    "fad": 1.0047808777222014
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-8st",
+    "dataset": "librispeech",
+    "fad": 5.2103317701076115
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q1",
+    "task": "pitch_shift",
+    "label": "PitchShift_-8st",
+    "dataset": "esc50",
+    "fad": 0.9241512209034528
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_0.8x",
+    "dataset": "librispeech",
+    "fad": 30.039589761756474
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_0.8x",
+    "dataset": "esc50",
+    "fad": 2.8308112819533746
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_0.9x",
+    "dataset": "librispeech",
+    "fad": 25.249574636943205
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_0.9x",
+    "dataset": "esc50",
+    "fad": 1.593110485977012
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_1.1x",
+    "dataset": "librispeech",
+    "fad": 19.247629356997535
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_1.1x",
+    "dataset": "esc50",
+    "fad": 1.4854353011230828
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_1.2x",
+    "dataset": "librispeech",
+    "fad": 17.628269066740955
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q1",
+    "task": "time_stretch",
+    "label": "TimeStretch_1.2x",
+    "dataset": "esc50",
+    "fad": 2.862303825987281
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.1x",
+    "dataset": "librispeech",
+    "fad": 0.8017318421226993
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.1x",
+    "dataset": "esc50",
+    "fad": 0.6499139459086083
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.2x",
+    "dataset": "librispeech",
+    "fad": 1.126981548817854
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.2x",
+    "dataset": "esc50",
+    "fad": 0.8373977068178582
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.3x",
+    "dataset": "librispeech",
+    "fad": 1.3140795997595691
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.3x",
+    "dataset": "esc50",
+    "fad": 0.9747919779546638
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.4x",
+    "dataset": "librispeech",
+    "fad": 1.56062464690759
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q1",
+    "task": "formant_shift",
+    "label": "FormantShift_1.4x",
+    "dataset": "esc50",
+    "fad": 1.1158605194307585
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.1s",
+    "dataset": "librispeech",
+    "fad": 8.511539397980604
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.1s",
+    "dataset": "esc50",
+    "fad": 1.078685848566071
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.2s",
+    "dataset": "librispeech",
+    "fad": 8.742620336471823
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.2s",
+    "dataset": "esc50",
+    "fad": 1.108450681045824
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.25s",
+    "dataset": "librispeech",
+    "fad": 8.860025010520749
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.25s",
+    "dataset": "esc50",
+    "fad": 1.1261097784345986
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.4s",
+    "dataset": "librispeech",
+    "fad": 9.233562728383658
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.4s",
+    "dataset": "esc50",
+    "fad": 1.1788265101192184
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.5s",
+    "dataset": "librispeech",
+    "fad": 9.508010184565443
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.5s",
+    "dataset": "esc50",
+    "fad": 1.2202209853528558
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.6s",
+    "dataset": "librispeech",
+    "fad": 9.796620371532107
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.6s",
+    "dataset": "esc50",
+    "fad": 1.2676373136880743
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.8s",
+    "dataset": "librispeech",
+    "fad": 10.376831330571202
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=0.8s",
+    "dataset": "esc50",
+    "fad": 1.363500121377434
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=1.0s",
+    "dataset": "librispeech",
+    "fad": 10.91937277554477
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=1.0s",
+    "dataset": "esc50",
+    "fad": 1.4707967197515055
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=2.0s",
+    "dataset": "librispeech",
+    "fad": 14.682335259460713
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q2",
+    "task": "reverb",
+    "label": "Reverb_RT60=2.0s",
+    "dataset": "esc50",
+    "fad": 2.899316124642101
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q3",
+    "task": "time_reverse",
+    "label": "TimeReversal",
+    "dataset": "librispeech",
+    "fad": 1.403730332194288
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q3",
+    "task": "time_reverse",
+    "label": "TimeReversal",
+    "dataset": "esc50",
+    "fad": 0.9830118709431037
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_1000ms",
+    "dataset": "librispeech",
+    "fad": 0.5943553763651327
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=60dB",
+    "dataset": "librispeech",
+    "fad": 0.05012024719972349
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=60dB",
+    "dataset": "esc50",
+    "fad": 0.36035077809063154
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=40dB",
+    "dataset": "librispeech",
+    "fad": 1.1126225889336259
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=40dB",
+    "dataset": "esc50",
+    "fad": 0.9958148686757429
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=20dB",
+    "dataset": "librispeech",
+    "fad": 7.017209242953391
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=20dB",
+    "dataset": "esc50",
+    "fad": 4.391771639357397
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=10dB",
+    "dataset": "librispeech",
+    "fad": 15.636298344020917
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=10dB",
+    "dataset": "esc50",
+    "fad": 8.231181010347628
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=0dB",
+    "dataset": "librispeech",
+    "fad": 31.781638458473406
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=0dB",
+    "dataset": "esc50",
+    "fad": 11.503954002963344
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=-5dB",
+    "dataset": "librispeech",
+    "fad": 36.255257105404866
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q4",
+    "task": "white_noise",
+    "label": "WhiteNoise_SNR=-5dB",
+    "dataset": "esc50",
+    "fad": 12.748556923935464
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_8000Hz",
+    "dataset": "librispeech",
+    "fad": 11.328557948352167
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_8000Hz",
+    "dataset": "esc50",
+    "fad": 0.022884098062173865
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_6000Hz",
+    "dataset": "librispeech",
+    "fad": 3.9857485533056174
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_6000Hz",
+    "dataset": "esc50",
+    "fad": 0.08334964886520264
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_4000Hz",
+    "dataset": "librispeech",
+    "fad": 5.932657269516765
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_4000Hz",
+    "dataset": "esc50",
+    "fad": 0.3228518347540746
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_2000Hz",
+    "dataset": "librispeech",
+    "fad": 10.825571304672302
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_2000Hz",
+    "dataset": "esc50",
+    "fad": 1.57027565152079
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_1000Hz",
+    "dataset": "librispeech",
+    "fad": 19.73756637470934
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q4",
+    "task": "lowpass",
+    "label": "LowPass_1000Hz",
+    "dataset": "esc50",
+    "fad": 6.153569871392667
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_1000ms",
+    "dataset": "esc50",
+    "fad": 0.6393836887432833
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_500ms",
+    "dataset": "librispeech",
+    "fad": 0.7784900189562918
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_500ms",
+    "dataset": "esc50",
+    "fad": 0.8071997241107052
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_250ms",
+    "dataset": "librispeech",
+    "fad": 1.401323052670644
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_250ms",
+    "dataset": "esc50",
+    "fad": 1.1749489918619802
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_100ms",
+    "dataset": "librispeech",
+    "fad": 5.855942406179663
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_CF_100ms",
+    "dataset": "esc50",
+    "fad": 2.8135850400061466
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_1000ms",
+    "dataset": "librispeech",
+    "fad": 0.4769663770262526
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_1000ms",
+    "dataset": "esc50",
+    "fad": 0.578501103648216
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_500ms",
+    "dataset": "librispeech",
+    "fad": 0.8282192295255653
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_500ms",
+    "dataset": "esc50",
+    "fad": 0.8497379821148531
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_250ms",
+    "dataset": "librispeech",
+    "fad": 1.5184515733239397
+  },
+  {
+    "encoder": "audiomae",
+    "question": "Q3",
+    "task": "shuffle",
+    "label": "Shuffle_250ms",
+    "dataset": "esc50",
+    "fad": 1.394346447747026
+  }
+]
