@@ -1,5 +1,7 @@
 # FAD Encoder Bias: Reproduction Code
 
+[![arXiv](https://img.shields.io/badge/arXiv-2602.23958-b31b1b.svg)](https://arxiv.org/abs/2602.23958)
+
 > **Paper:** *An Empirical Analysis of Task-Induced Encoder Bias in Fréchet Audio Distance*
 >
 > Submitted to Interspeech 2026
@@ -166,8 +168,9 @@ This compares every individual FAD value and all Table 2 scores against the refe
 @article{jeong2026fad,
   title={An Empirical Analysis of Task-Induced Encoder Bias in {Fr\'{e}chet} Audio Distance},
   author={Jeong, Wonwoo},
-  journal={arXiv preprint arXiv:2602.XXXXX},
-  year={2026}
+  journal={arXiv preprint arXiv:2602.23958},
+  year={2026},
+  url={[https://doi.org/10.48550/arXiv.2602.23958](https://doi.org/10.48550/arXiv.2602.23958)}
 }
 ```
 
