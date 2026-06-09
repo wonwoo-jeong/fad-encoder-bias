@@ -4,7 +4,7 @@
 
 > **Paper:** *An Empirical Analysis of Task-Induced Encoder Bias in Fréchet Audio Distance*
 >
-> Submitted to Interspeech 2026
+> Accepted to Interspeech 2026
 >
 > Wonwoo Jeong
 >
