@@ -1,10 +1,12 @@
 # FAD Encoder Bias: Reproduction Code
 
+[![Interspeech 2026](https://img.shields.io/badge/Interspeech-2026-blue.svg)](https://www.isca-archive.org/interspeech_2026/jeong26_interspeech.html)
+[![DOI](https://img.shields.io/badge/DOI-10.21437%2FInterspeech.2026--1549-green.svg)](https://doi.org/10.21437/Interspeech.2026-1549)
 [![arXiv](https://img.shields.io/badge/arXiv-2602.23958-b31b1b.svg)](https://arxiv.org/abs/2602.23958)
 
 > **Paper:** *An Empirical Analysis of Task-Induced Encoder Bias in Fréchet Audio Distance*
 >
-> Accepted to Interspeech 2026
+> Published in *Proc. Interspeech 2026*, pp. 5678–5683, Sydney, Australia
 >
 > Wonwoo Jeong
 >
@@ -164,13 +166,17 @@ This compares every individual FAD value and all Table 2 scores against the refe
 
 ## Citation
 
+If you use this code, please cite:
+
 ```bibtex
-@article{jeong2026fad,
-  title={An Empirical Analysis of Task-Induced Encoder Bias in {Fr\'{e}chet} Audio Distance},
-  author={Jeong, Wonwoo},
-  journal={arXiv preprint arXiv:2602.23958},
-  year={2026},
-  url={[https://doi.org/10.48550/arXiv.2602.23958](https://doi.org/10.48550/arXiv.2602.23958)}
+@inproceedings{jeong26_interspeech,
+  title     = {{An Empirical Analysis of Task-Induced Encoder Bias in Fréchet Audio Distance}},
+  author    = {Wonwoo Jeong},
+  year      = {2026},
+  booktitle = {{Interspeech 2026}},
+  pages     = {5678--5683},
+  doi       = {10.21437/Interspeech.2026-1549},
+  issn      = {2958-1796},
 }
 ```
 
